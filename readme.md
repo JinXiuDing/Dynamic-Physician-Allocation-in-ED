@@ -35,7 +35,7 @@ This directory contains detailed experimental results in Excel files, matching t
 
 - **`non-epidemic_phase.xlsx`**  
   Results for **Section 6.3**. For each non-epidemic day:  
-  - A bold row shows the total expected cost for the following methods: BI1, $\overline{\text{BI1}$ $\widehat{BI1}$, $\widehat{BI2}$,Gcμ, CP, MP, and FA.  
+  - A bold row shows the total expected cost for the following methods: BI1, $\overline{\text{BI1}}$ $\widehat{BI1}$, $\widehat{BI2}$,Gcμ, CP, MP, and FA.  
   - 24 rows include per-period costs and patient counts (`avg_q0`, `avg_q1`).  
 
 - **`epidemic_phase.xlsx`**  

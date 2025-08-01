@@ -30,12 +30,12 @@ This directory contains detailed experimental results in Excel files, matching t
 
 - **`small_scale_instances.xlsx`**  
   Results for **Section 6.2**. For each small-scale instance:  
-  - A bold row shows the total expected cost across the decision horizon for the following methods: BI-PI, BI, gcμ, CP, and MP.  
+  - A bold row shows the total expected cost across the decision horizon for the following methods: BI-PI, BI, Gcμ, CP, and MP.  
   - Per-period rows include the expected cost for each method and the average number of critical (`avg_q0`) and mild (`avg_q1`) patients at the end of each period.  
 
 - **`non-epidemic_phase.xlsx`**  
   Results for **Section 6.3**. For each non-epidemic day:  
-  - A bold row shows the total expected cost for the following methods: BI1, \( \widehat{BI1} \), \( \widehat{BI2} \), gcμ, CP, MP, and FA.  
+  - A bold row shows the total expected cost for the following methods: BI1, $\overline{\text{BI1}$ $\widehat{BI1}$, $\widehat{BI2}$,Gcμ, CP, MP, and FA.  
   - 24 rows include per-period costs and patient counts (`avg_q0`, `avg_q1`).  
 
 - **`epidemic_phase.xlsx`**  

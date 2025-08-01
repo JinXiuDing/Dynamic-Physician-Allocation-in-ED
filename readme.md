@@ -14,7 +14,7 @@ This directory contains input parameters and raw data for all numerical experime
   Contains 10 text files named `case_<date>.txt` (e.g., `case_2022-08-10.txt`), corresponding to real ED data from the non-epidemic period in **Section 6.3 (Non-epidemic Phase Experiment)**. These files include the same parameters as those in the `small_scale_instance/` directory, plus additional data such as: forecast patient arrival rates via moving average (\( history_lam0, history_lam1 \)), forecast patient arrival rates via MLR-OL (\( forecast_lam0, forecast_lam1 \)), and physician shift schedules.  
 
 - **`epidemic_phase/`**  
-  Contains 10 text files named `case_<date>.txt` (e.g., `case_20221225.txt`), corresponding to real ED data from the epidemic period in **Section 6.4 (Epidemic Phase Experiment)**. These files include the same parameters as those in the `non-epidemic_phase/` directory.  
+  Contains 10 text files named `case_<date>.txt` (e.g., `case_2022-12-25.txt`), corresponding to real ED data from the epidemic period in **Section 6.4 (Epidemic Phase Experiment)**. These files include the same parameters as those in the `non-epidemic_phase/` directory.  
 
 - **`sensitivity_analysis_instances/`**  
   Contains 105 text files for **Section 6.5 (Sensitivity Analysis)**, including:  
@@ -34,12 +34,12 @@ This directory contains detailed experimental results in Excel files, matching t
   - Per-period rows include the expected cost for each method and the average number of critical (`avg_q0`) and mild (`avg_q1`) patients at the end of each period.  
 
 - **`non-epidemic_phase.xlsx`**  
-  Results for **Section 6.3**. For each non-epidemic day:  
+  Results for **Section 6.3**. For each non-epidemic phase instance:  
   - A bold row shows the total expected cost for the following methods: BI1, $\overline{\text{BI1}}$ $\widehat{BI1}$, $\widehat{BI2}$,Gcμ, CP, MP, and FA.  
   - 24 rows include per-period costs and patient counts (`avg_q0`, `avg_q1`).  
 
 - **`epidemic_phase.xlsx`**  
-  Results for **Section 6.4**. Structured identically to `non-epidemic_phase.xlsx`, with results for the same methods during the COVID-19 outbreak period.  
+  Results for **Section 6.4**. Structured identically to `non-epidemic_phase.xlsx`, with results for the same methods during the epidemic phase.  
 
 - **`sensitivity_analysis.xlsx`**  
   Results for **Section 6.5**. Columns include:  
